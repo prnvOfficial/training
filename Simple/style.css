@@ -1,0 +1,86 @@
+body {
+  margin: 0%;
+  padding: 0%;
+}
+
+.header {
+  background: url("images/vikram-sn-tKVbIjrs-unsplash.jpg");
+  background-size: 100% 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.header-main {
+  width: auto;
+  background-color: rgb(67 59 126 / 71%);
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.header-info {
+  width: auto;
+  background-color: rgb(32 66 131);
+  padding: 5px 10px;
+  border-radius: 10px;
+  margin-top: 20px;
+  font-size: 10px;
+}
+.activities {
+  display: block;
+  background-color: blanchedalmond;
+  padding: 20px;
+}
+.activities h3 {
+  text-align: center;
+  display: block;
+  margin: 0px auto 20px;
+}
+
+.activity {
+  width: 300px;
+  text-align: justify;
+  margin: 10px;
+}
+
+.activities-info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.activity-logo {
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  display: block;
+  margin: 0px auto;
+  margin-bottom: 20px;
+}
+
+.guide-card {
+  display: flex;
+  margin: 50px auto;
+  width: 500px;
+  border-radius: 20px;
+  border: 5px solid #bccdad;
+  padding: 20px;
+  text-align: center;
+  color: #bccdad;
+  background-color: black;
+}
+
+.guide-photo {
+  width: 180px;
+  height: 200px;
+  border-radius: 20px;
+}
+
+.guide-info {
+  display: block;
+  margin: 10px 20px 10px 20px;
+}
